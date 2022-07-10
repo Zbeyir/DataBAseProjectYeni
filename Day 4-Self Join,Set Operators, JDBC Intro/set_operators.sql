@@ -56,6 +56,9 @@ from EMPLOYEES
 group by FIRST_NAME
 having count(*) >1;
 
+select  * from REGIONS;
+
+
 
 
 
