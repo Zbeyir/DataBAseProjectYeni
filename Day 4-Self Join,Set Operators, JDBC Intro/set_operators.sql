@@ -59,6 +59,11 @@ having count(*) >1;
 select  * from REGIONS;
 
 
+select EMPLOYEE_ID,FIRST_NAME,LAST_NAME,SALARY
+from EMPLOYEES
+where ROWNUM <2;
+
+
 
 
 
