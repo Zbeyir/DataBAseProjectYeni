@@ -23,5 +23,12 @@
       <jdbc-url>jdbc:mysql://52.23.232.254:3306/bitnami_orocrm</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Vytrack Qa2" uuid="4506c3a6-ac71-424c-8e22-72e2fb289d4a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://52.23.232.254:3306/bitnami_orocrm</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
